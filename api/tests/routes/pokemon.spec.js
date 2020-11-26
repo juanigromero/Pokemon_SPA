@@ -5,20 +5,20 @@ const app = require('../../src/app.js');
 const { Product, conn } = require('../../src/db.js');
 
 const agent = session(app);
-const product = {
-  name: 'producto',
+const pokemon = {
+  name: 'Pikachu',
 };
 
-describe('PRODUCT routes', () => {
+describe('Pokemon routes', () => {
   before(() => conn.authenticate()
   .catch((err) => {
     console.error('Unable to connect to the database:', err);
   }));
-  beforeEach(() => Product.sync({ force: true })
-    .then(() => Product.create(product)));
-  describe('GET /products', () => {
+  beforeEach(() => Pokemon.sync({ force: true })
+    .then(() => Pokemon.create(pokemon)));
+  describe('GET /pokemons', () => {
     it('should get 200', () => 
-      agent.get('/products/').expect(200)
+      agent.get('/pokemons').expect(200)
     );
   });
 });

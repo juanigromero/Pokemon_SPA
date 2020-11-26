@@ -4,6 +4,10 @@
 
 # Individual Project - Henry Pokemon
 
+<p align="left">
+  <img height="150" src="./pokemon.png" />
+</p>
+
 ## Objetivos del Proyecto
 
 - Construir una App utlizando React, Redux, Node y Sequelize.
@@ -57,9 +61,9 @@ El contenido de `client` fue creado usando: Create React App.
 La idea general es crear una aplicación en la cual se puedan ver los distintos Pokemon utilizando la api externa [pokeapi](https://pokeapi.co/) y a partir de ella poder, entre otras cosas:
 
   - Buscar pokemons
-  - Filtrarlos
+  - Filtrarlos / Ordenarlos
+  - Crear o editar pokemons
   - Crear y gestionar "entrenadores pokemon"
   - Gestionar un equipo propio de pokemons
-  - Pelear contra otros pokemons/entrenadores
 
-El detalle de la totalidad de las funcionalidades lo obtendrán de esta [planilla](airtable.com/)
+El detalle de la totalidad de las funcionalidades lo obtendrán de esta [planilla](https://docs.google.com/spreadsheets/d/1608gv_uJDM-ImtFBJApxTw76zUVTj5RYuoiUVTTICB4/edit?usp=sharing)
