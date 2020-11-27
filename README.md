@@ -102,16 +102,11 @@ __Ruta de detalle de Pokemon__: debe contener
 - [ ] Número de Pokemon (id)
 - [ ] Estadísticas (vida, fuerza, defensa, velocidad)
 - [ ] Altura y peso
-- [ ] Botón/Opción para editar al pokemon que rediriga a `Ruta de creación/edición de Pokemon`
 
-__Ruta de creación/edición de Pokemon__: debe contener
+__Ruta de creación__: debe contener
 - [ ] Un formulario __controlado__ con los campos mencionados en el detalle del pokemon
 - [ ] Posibilidad de seleccionar/agregar más de un tipo de pokemon
-- [ ] Botón/Opción para crear un nuevo pokemon o modificar uno previamente creado
-
-__Ruta de creación/edición de tipos de Pokemon__: debe contener
-- [ ] Input para determinar o modificar el nombre del tipo de Pokemon
-- [ ] Botón/Opción para guardar los cambios o crear un nuevo tipo de pokemon según corresponda
+- [ ] Botón/Opción para crear un nuevo pokemon
 
 #### Base de datos
 
@@ -147,14 +142,11 @@ Se debe desarrollar un servidor en Node/Express con las siguientes rutas:
   - Obtener el pokemon que coincida exactamente con el nombre pasado como query parameter (Puede ser de pokeapi o creado por nosotros)
   - Si no existe ningún pokemon mostrar un mensaje adecuado
 - [ ] __POST /pokemons__:
-  - Recibe los datos recolectados desde el formulario controlado de la ruta de creación/edición de pokemons por body
-  - Crea/Modifica un pokemon de la base de datos
+  - Recibe los datos recolectados desde el formulario controlado de la ruta de creación de pokemons por body
+  - Crea un pokemon en la base de datos
 - [ ] __GET /types__:
   - Obtener todos los tipos de pokemons posibles
   - En una primera instancia deberán traerlos desde pokeapi y guardarlos en su propia base de datos y luego ya utilizarlos desde allí
-- [ ] __POST /types__:
-  - Recibe los datos recolectados desde la ruta de creación/edición de tipos de Pokemon por body
-  - Crea/Modifica un tipo de pokemon de la base de datos
 
 
 #### Testing
