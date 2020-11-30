@@ -2,7 +2,7 @@
 const { expect } = require('chai');
 const session = require('supertest-session');
 const app = require('../../src/app.js');
-const { Product, conn } = require('../../src/db.js');
+const { Pokemon, conn } = require('../../src/db.js');
 
 const agent = session(app);
 const pokemon = {
@@ -17,7 +17,7 @@ describe('Pokemon routes', () => {
   beforeEach(() => Pokemon.sync({ force: true })
     .then(() => Pokemon.create(pokemon)));
   describe('GET /pokemons', () => {
-    it('should get 200', () => 
+    it('should get 200', () =>
       agent.get('/pokemons').expect(200)
     );
   });
