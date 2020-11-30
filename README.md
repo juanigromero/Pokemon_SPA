@@ -64,8 +64,7 @@ La idea general es crear una aplicación en la cual se puedan ver los distintos 
 
   - Buscar pokemons
   - Filtrarlos / Ordenarlos
-  - Crear o editar pokemons
-  - Crear o editar tipos de pokemon
+  - Crear nuevos pokemons
 
 ### Requerimientos mínimos:
 
