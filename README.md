@@ -4,7 +4,7 @@
   <img height="150" src="./pokemon.png" />
 </p>
 
-Esta es una aplicación en la cual se puedan ver los distintos Pokemon utilizando la api externa [pokeapi](https://pokeapi.co/) y a partir de ella poder, entre otras cosas:
+Esta es una aplicación en la cual se pueden ver los distintos Pokemon utilizando la api externa [pokeapi](https://pokeapi.co/) y a partir de ella poder, entre otras cosas:
 
   - Buscar pokemons
   - Filtrarlos / Ordenarlos
