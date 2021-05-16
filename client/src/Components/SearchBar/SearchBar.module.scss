@@ -1,0 +1,39 @@
+.containter{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 2rem 0rem;   
+    form{
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid #9376A6 2px;
+        margin-bottom: 10px;
+        
+        label{
+            font-weight: 500;
+            font-size: 3rem;
+        }
+        input:focus{
+            outline: none;
+        }
+        input{
+            background-color: transparent;
+            color: #9376A6;
+            border: none;
+            height: 2rem;
+            font-size: 0.9rem;
+        }
+    }
+
+}
+.button:hover{
+    color:gray;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: gray;
+}
+

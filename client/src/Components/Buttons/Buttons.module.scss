@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    flex-wrap: wrap;
+    button{
+        margin: 5px 10px;
+        background-color: #9376A6;
+        outline: none;
+        padding: 1rem 1.5rem;
+        border-radius: 5px;
+        border: solid 2px #E8CA46;
+        color:whitesmoke;
+    }
+    button:hover{
+        background-color: #E8CA46;
+        border-radius: 999px;
+        color: black;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    button:active{
+        background-color: #E8CA46 ;
+    }
+    form{
+        
+        input{
+        margin: 0px 10px;
+        background-color: #9376A6;
+        border: none;
+        outline: none;
+        padding: 0.95rem;
+        border-radius: 5px;
+        border: solid 2px #E8CA46;
+        color: whitesmoke;
+        position: relative;
+        top: 5px;
+        }
+        input:hover{
+            background-color: #E8CA46;
+            border-radius: 999px;
+            color: black;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        select{
+        margin: 0px 10px;
+        background-color: #9376A6;
+        border: none;
+        outline: none;
+        padding: 0.95rem;
+        border-radius: 5px;
+        border: solid 2px #E8CA46;
+        color: whitesmoke;
+        position: relative;
+        top: 5px;
+        }
+        select:hover{
+            background-color: #E8CA46;
+            border-radius: 999px;
+            color: black;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    }
+}

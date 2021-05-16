@@ -1,0 +1,18 @@
+.pagination{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 2rem;
+
+    // border: solid crimson 1px;
+}
+.links{
+    text-decoration: none;
+    background-color: #9376A6 ;
+    padding: 1rem;
+    margin: 2px;
+    border: solid 4px #E8CA46;
+    color: whitesmoke;
+}

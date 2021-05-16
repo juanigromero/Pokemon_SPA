@@ -1,0 +1,57 @@
+h2{
+    font-size: 3rem;
+    margin:1rem;
+    font-family: 'VT323', monospace;
+}
+.create{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    label{
+        font-family: 'VT323', monospace;
+        font-size: 1.5rem;
+        // margin-top: 1rem;
+    }
+    select{
+        margin-bottom: 1rem;
+        width: 100%;
+        border: none;
+        padding: 0.8rem;
+        border-radius: 5px;
+        outline: none;
+    }
+    select:hover{
+        cursor: pointer;
+    }
+    input{
+        margin-bottom: 1rem;
+        width: 100% auto;
+        border: none;
+        outline: none;
+        padding: 0.8rem;
+        border-radius: 5px;
+    }
+
+  
+}
+.button{
+    font-size: medium;
+    font-weight: 600;
+    background-color: #9376A6;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: solid 2px #E8CA46;
+    color:whitesmoke;
+    width: 100%;
+}
+.button:hover{
+    background-color: #E8CA46;
+    border-radius: 999px;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.button:active{
+    background-color: #E8CA46 ;
+}
