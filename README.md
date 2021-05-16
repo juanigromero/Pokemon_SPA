@@ -14,11 +14,12 @@ Para las funcionalidades de filtrado y ordenamiento no se utilizaron los endpoin
 
 ## Comenzando 🚀
 
-Para poder iniciar el proyecto es necesario crear un archivo .env dentro de la carpeta api que contenga los siguientes campos
+Para poder iniciar el proyecto es necesario crear un archivo .env dentro de la carpeta api que contenga los siguientes campos:
+
 ``
-  DB_USER=usuariodepostgres
-  DB_PASSWORD=passwordDePostgres
-  DB_HOST=localhost
+  DB_USER=usuariodepostgres  
+  DB_PASSWORD=passwordDePostgres  
+  DB_HOST=localhost  
 ``
 ## Tecnologías 🛠️
 
